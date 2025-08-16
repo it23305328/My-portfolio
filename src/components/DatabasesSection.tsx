@@ -7,13 +7,13 @@ const DatabasesSection = () => {
       icon: <Database className="h-8 w-8" />,
       title: "Relational Databases",
       description: "Working with structured data and complex relationships",
-      technologies: ["PostgreSQL", "MySQL", "SQLite", "SQL Server"]
+      technologies: ["MySQL", "MSSQL", "MongoDB", "Oracle"]
     },
     {
       icon: <Server className="h-8 w-8" />,
       title: "NoSQL Databases",
       description: "Managing unstructured data and scalable solutions",
-      technologies: ["MongoDB", "Firebase", "Redis", "DynamoDB"]
+      technologies: ["Database Design", "Query Optimization", "Data Modeling", "Performance Tuning"]
     },
     {
       icon: <Cloud className="h-8 w-8" />,

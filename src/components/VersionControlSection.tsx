@@ -7,7 +7,7 @@ const VersionControlSection = () => {
       icon: <GitBranch className="h-8 w-8" />,
       title: "Git & GitHub",
       description: "Source code management and collaboration workflows",
-      technologies: ["Git", "GitHub", "GitLab", "Bitbucket"]
+      technologies: ["Git", "GitHub", "Repository Management", "Commit History"]
     },
     {
       icon: <Users className="h-8 w-8" />,
