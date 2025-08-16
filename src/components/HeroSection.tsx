@@ -24,12 +24,12 @@ const HeroSection = () => {
           </h1>
           
           <h2 className="text-2xl md:text-3xl text-text-light mb-6 font-medium">
-            Software Engineering Student
+            Software Engineer & Wedding Photographer
           </h2>
           
           <p className="text-lg md:text-xl text-text-light mb-8 max-w-2xl mx-auto leading-relaxed">
-            Passionate about creating innovative solutions and building amazing digital experiences.
-            Currently pursuing my degree while working on exciting projects.
+            Passionate about capturing life's precious moments and creating innovative technology solutions.
+            Blending technical expertise with creative vision to tell beautiful stories.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

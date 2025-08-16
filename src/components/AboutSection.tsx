@@ -61,19 +61,19 @@ const AboutSection = () => {
             <h3 className="text-2xl font-bold mb-6">My Story</h3>
             <div className="space-y-4 text-text-light">
               <p>
-                I'm a passionate software engineering student with a love for creating 
-                digital solutions that make a difference. My journey began with curiosity 
-                about how things work behind the scenes of our favorite applications.
+                I'm a passionate software engineering student and professional wedding & event photographer. 
+                My unique blend of technical expertise and creative vision allows me to capture life's most 
+                precious moments while building innovative digital solutions.
               </p>
               <p>
-                Currently pursuing my degree while actively building projects and 
-                contributing to open source. I believe in continuous learning and 
-                staying up-to-date with the latest technologies and best practices.
+                Currently pursuing my degree while running a successful photography business specializing 
+                in weddings and special events. I believe in the power of both technology and photography 
+                to preserve memories and create lasting impact.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new frameworks, 
-                participating in hackathons, or mentoring fellow students in their 
-                programming journey.
+                When I'm not coding, you'll find me behind the camera capturing the magic of weddings, 
+                special events, and life's beautiful moments. Each project - whether technical or creative - 
+                teaches me something new about storytelling and human connection.
               </p>
             </div>
           </div>
