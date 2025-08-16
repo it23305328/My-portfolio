@@ -25,7 +25,7 @@ const HeroSection = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             Hi, I'm{" "}
             <span className="hero-gradient bg-clip-text text-transparent">
-              Alex Johnson
+              Muditha Madushanka
             </span>
           </h1>
           
