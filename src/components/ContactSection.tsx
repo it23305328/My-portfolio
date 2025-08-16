@@ -20,19 +20,19 @@ const ContactSection = () => {
     {
       icon: <Mail className="h-5 w-5" />,
       title: "Email",
-      value: "alex.johnson@email.com",
-      link: "mailto:alex.johnson@email.com"
+      value: "Mudithamadushanka@icloud.com",
+      link: "mailto:Mudithamadushanka@icloud.com"
     },
     {
       icon: <Phone className="h-5 w-5" />,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "+94 786601395",
+      link: "tel:+94786601395"
     },
     {
       icon: <MapPin className="h-5 w-5" />,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Galle, Sri Lanka",
       link: "#"
     }
   ];
