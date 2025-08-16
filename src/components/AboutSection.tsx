@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Code, Laptop, Lightbulb, Rocket } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const AboutSection = () => {
   const techStack = [
@@ -48,8 +49,12 @@ const AboutSection = () => {
           <div className="animate-fade-in-up">
             <div className="relative">
               <div className="w-80 h-80 mx-auto rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                <div className="w-72 h-72 rounded-xl bg-card flex items-center justify-center">
-                  <div className="text-6xl">👨‍💻</div>
+                <div className="w-72 h-72 rounded-xl overflow-hidden">
+                  <img 
+                    src={profilePhoto} 
+                    alt="Muditha Madushanka - Wedding & Event Photographer and Software Engineer" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/20 rounded-full blur-xl"></div>
