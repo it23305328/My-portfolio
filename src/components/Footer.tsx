@@ -9,7 +9,7 @@ const Footer = () => {
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/muditha-madushanka-129a1737a/",
       label: "LinkedIn"
     },
     {

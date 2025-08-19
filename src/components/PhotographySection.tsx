@@ -1,4 +1,6 @@
 import { Camera, Heart, Users, Calendar } from "lucide-react";
+import { Button } from "@/components/ui/button"; // Ensure this path is correct
+import { Github, Facebook } from "lucide-react";
 
 const PhotographySection = () => {
   const photographyServices = [
@@ -68,6 +70,18 @@ const PhotographySection = () => {
               </div>
             </div>
           ))}
+
+          <div className="flex justify-end w-full pr-4 mt-12 animate-fade-in-up">
+            <Button
+              variant="outline"
+              size="lg"
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              onClick={() => window.open('https://web.facebook.com/MomentMakerSl', '_blank')}
+            >
+              View All Albums on FaceBook 
+              <Facebook className="ml-2 h-5 w-5" />
+            </Button>
+          </div>
         </div>
 
         <div className="text-center">

@@ -24,7 +24,7 @@ const HeroSection = () => {
           </h1>
           
           <h2 className="text-2xl md:text-3xl text-text-light mb-6 font-medium">
-            Software Engineer & Wedding Photographer
+            Software Engineer Student & Wedding Photographer
           </h2>
           
           <p className="text-lg md:text-xl text-text-light mb-8 max-w-2xl mx-auto leading-relaxed">

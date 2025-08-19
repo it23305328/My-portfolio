@@ -7,25 +7,25 @@ const WebDevelopmentSection = () => {
       icon: <Globe className="h-8 w-8" />,
       title: "Frontend Development",
       description: "Building responsive and interactive user interfaces with modern frameworks",
-      technologies: ["React", "Vue.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"]
+      technologies: ["React", "JavaScript", "HTML5", "CSS3", ]
     },
     {
       icon: <Code2 className="h-8 w-8" />,
       title: "Backend Development",
       description: "Creating robust server-side applications and APIs",
-      technologies: ["Node.js", "Express.js", "Python", "Django", "RESTful APIs"]
+      technologies: ["Node.js", "Express.js", "Python","Php" ]
     },
-    {
+   /* {
       icon: <Smartphone className="h-8 w-8" />,
       title: "Responsive Design",
       description: "Ensuring optimal user experience across all devices",
       technologies: ["Bootstrap", "Flexbox", "Grid", "Mobile-First Design"]
-    },
+    },*/
     {
       icon: <Palette className="h-8 w-8" />,
       title: "UI/UX Design",
       description: "Creating beautiful and intuitive user interfaces",
-      technologies: ["Figma", "Adobe XD", "Wireframing", "Prototyping"]
+      technologies: ["Figma", "Wireframing",]
     }
   ];
 

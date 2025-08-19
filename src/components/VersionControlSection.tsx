@@ -7,9 +7,9 @@ const VersionControlSection = () => {
       icon: <GitBranch className="h-8 w-8" />,
       title: "Git & GitHub",
       description: "Source code management and collaboration workflows",
-      technologies: ["Git", "GitHub", "Repository Management", "Commit History"]
+      technologies: ["Git", "GitHub", "Repository Management", "GitLab"]
     },
-    {
+    /*{
       icon: <Users className="h-8 w-8" />,
       title: "Team Collaboration",
       description: "Working effectively in development teams",
@@ -26,7 +26,7 @@ const VersionControlSection = () => {
       title: "Documentation",
       description: "Maintaining clear project documentation",
       technologies: ["README.md", "API Documentation", "Code Comments", "Wiki"]
-    }
+    }*/
   ];
 
   return (

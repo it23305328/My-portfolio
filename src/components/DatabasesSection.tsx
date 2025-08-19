@@ -9,7 +9,7 @@ const DatabasesSection = () => {
       description: "Working with structured data and complex relationships",
       technologies: ["MySQL", "MSSQL", "MongoDB", "Oracle"]
     },
-    {
+    /*{
       icon: <Server className="h-8 w-8" />,
       title: "NoSQL Databases",
       description: "Managing unstructured data and scalable solutions",
@@ -26,7 +26,7 @@ const DatabasesSection = () => {
       title: "Database Security",
       description: "Implementing secure data access and protection",
       technologies: ["Authentication", "Authorization", "Encryption", "Backup"]
-    }
+    }*/
   ];
 
   return (
