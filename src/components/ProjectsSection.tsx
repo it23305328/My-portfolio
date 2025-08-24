@@ -6,40 +6,36 @@ import { ExternalLink, Github, Calendar } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with user authentication, payment integration, and admin dashboard. Built with modern web technologies for optimal performance and user experience.",
-      techStack: ["React", "Node.js", "PostgreSQL", "Stripe"],
-      github: "#",
-      demo: "#",
+      title: " Helth care system-",
+      description: "A web-based application built with PHP, HTML, and CSS to manage healthcare services efficiently. Features include patient management, appointment scheduling, medical records management, and doctor/staff profiles. The system offers a user-friendly interface and a responsive design for seamless access on both desktop and mobile devices.",
+      techStack: ["PHP", "HTML", "CSS", ],
+      github: "https://github.com/it23305328/soft-toy-management-system",
       date: "2024",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates, team collaboration features, and intuitive drag-and-drop interface.",
-      techStack: ["Next.js", "TypeScript", "Prisma", "Socket.io"],
-      github: "#",
-      demo: "#",
-      date: "2023",
-      featured: false
-    },
-    {
-      title: "Weather Dashboard",
-      description: "Interactive weather dashboard with location-based forecasts, beautiful data visualizations, and responsive design for all devices.",
-      techStack: ["Vue.js", "Chart.js", "Weather API", "Tailwind"],
-      github: "#",
-      demo: "#",
-      date: "2023",
-      featured: false
-    },
-    {
-      title: "Social Media Analytics",
-      description: "Analytics platform for social media performance tracking with advanced reporting, data visualization, and automated insights generation.",
-      techStack: ["Python", "Django", "React", "D3.js"],
-      github: "#",
-      demo: "#",
+      title: " Online tour guide system",
+      description: "The Online Tour Guide System is a web application developed using Java, JSP, and CSS. It allows users to browse tourist destinations, book tours, and make secure payments. The system also includes customer care support and upcoming events management, offering a simple and user-friendly interface for both travelers and administrators.",
+      techStack: ["JAVA", "JSP", "CSS" , "JavaScript"],
+      github: "https://github.com/it23305328/Online-tour-guide-system",
       date: "2024",
+      featured: false
+    },
+    {
+      title: "soft toy management system",
+      description: "A MERN stack-based system for managing orders, production, inventory, finance, and user management in a soft toy company.",
+      techStack: ["Express.js", "React.js", "Node.js", "MongoDB"],
+      github: "https://github.com/it23305328/soft-toy-management-system",
+      date: "2025",
       featured: true
+    },
+    {
+      title: "Imili-Pocket Mobile Application ",
+      description: "Imili-Pocket is a Kotlin-based mobile app that helps users manage personal finances by tracking income, expenses, and budgets. It features a user-friendly interface, monthly reports, and simple navigation to make financial management easy and convenient.",
+      techStack: ["Kotlin", "SharedPreferences"],
+      github: "https://github.com/it23305328/Imili-Pocket",
+      date: "2025",
+      featured: false
     }
   ];
 
@@ -106,14 +102,7 @@ const ProjectsSection = () => {
                     <Github className="h-4 w-4" />
                     Code
                   </Button>
-                  <Button
-                    size="sm"
-                    className="flex items-center gap-2 hero-gradient hover:opacity-90"
-                    onClick={() => window.open(project.demo, '_blank')}
-                  >
-                    <ExternalLink className="h-4 w-4" />
-                    Live Demo
-                  </Button>
+                  
                 </div>
               </div>
 
@@ -128,7 +117,7 @@ const ProjectsSection = () => {
             variant="outline"
             size="lg"
             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-            onClick={() => window.open('#', '_blank')}
+            onClick={() => window.open('https://github.com/it23305328', '_blank')}
           >
             View All Projects on GitHub
             <Github className="ml-2 h-5 w-5" />

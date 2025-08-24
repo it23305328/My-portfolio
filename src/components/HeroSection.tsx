@@ -42,14 +42,22 @@ const HeroSection = () => {
               <ExternalLink className="ml-2 h-5 w-5" />
             </Button>
             
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg"
-            >
-              Download CV
-              <Download className="ml-2 h-5 w-5" />
-            </Button>
+            <a 
+  href="https://drive.google.com/file/d/1Eti3gSUTDdRjVJbPyi8nBRnYkQKhUyHz/view?usp=sharing" 
+  download="Muditha_Madushanka_CV.png"
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <Button
+    variant="outline"
+    size="lg"
+    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg"
+  >
+    Download CV
+    <Download className="ml-2 h-5 w-5" />
+  </Button>
+</a>
+
           </div>
         </div>
       </div>
